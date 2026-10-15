@@ -1,0 +1,52 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Data Stores & User Uploads (DO NOT COMMIT PERSONAL DATA)
+data/uploads/*
+!data/uploads/.gitkeep
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+services/document-service/data/
+**/data/uploads/*
+**/data/chroma_db/*
+
+# Secrets & Environment variables
+.env
+.env.*
+*.env
+*.key
+*.pem
+secrets/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary & Log files
+*.log
+temp_*
