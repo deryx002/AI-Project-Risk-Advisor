@@ -211,7 +211,7 @@ AI Project Risk Advisor/
 
 #### 1. Clone or Download the Repository
 ```bash
-git clone https://github.com/<your-username>/ai-project-risk-advisor.git
+git clone https://github.com/deryx002/ai-project-risk-advisor.git
 cd ai-project-risk-advisor
 ```
 
